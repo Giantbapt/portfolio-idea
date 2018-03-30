@@ -13,7 +13,7 @@
 }
 .container-show {
   width: 60%;
-  margin: 10px 10px 20% 20%;
+  margin: 10px 20% 30px 20%;
 }
 .title-show span {
   font-family: 'Avenir';
@@ -52,10 +52,30 @@
   font-size: 18px;
   font-weight: 300;
   opacity: 0.8;
+  text-align: justify;
 }
 .buttons-show {
   margin-top: 70px;
   font-family: "Rubik", "Helvetica", "sans-serif";
   display: flex;
   justify-content: space-between;
+}
+.card-content {
+  display: flex;
+  font-family: 'Avenir';
+  font-size: 20px;
+  opacity: 0.8;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-left: 80px;
+  right: 0px;
+  text-align: center
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 80px;
+  margin-left: 70px;
+
 }
