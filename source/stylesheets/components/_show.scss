@@ -1,0 +1,81 @@
+.banner-show {
+  height: 70vh;
+  background-size: cover !important;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  // position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+.container-show {
+  width: 60%;
+  margin: 10px 20% 30px 20%;
+}
+.title-show span {
+  font-family: 'Avenir';
+  color: white;
+  font-size: 45px;
+  font-weight: 900;
+  box-shadow: inset 0px -30px #6AD58B;
+  margin-left: 470px;
+  padding-top: 430px;
+}
+.title-show-autostop span {
+  margin-left: 650px;
+  font-family: 'Avenir';
+  color: white;
+  font-size: 45px;
+  font-weight: 900;
+  box-shadow: inset 0px -30px #6AD58B;
+  padding-top: 430px;
+}
+.title-show {
+  margin-top: 150px;
+}
+.title-show-autostop {
+  margin-top: 300px;
+}
+.questions {
+  font-family: 'Avenir';
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.answers {
+  margin-top: 20px;
+  font-family: 'Avenir';
+  font-size: 18px;
+  font-weight: 300;
+  opacity: 0.8;
+  text-align: justify;
+}
+.buttons-show {
+  margin-top: 70px;
+  font-family: "Rubik", "Helvetica", "sans-serif";
+  display: flex;
+  justify-content: space-between;
+}
+.card-content {
+  display: flex;
+  font-family: 'Avenir';
+  font-size: 20px;
+  opacity: 0.8;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-left: 80px;
+  right: 0px;
+  text-align: center
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 80px;
+  margin-left: 70px;
+
+}
